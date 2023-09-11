@@ -86,7 +86,7 @@ margin-top: 8px;
 }
 
 #switch button:hover {
-    outline: 8px solid var(--highlight-color)
+    outline: 8px solid var(--highlight-color);
 }
 
 #switch span{
@@ -154,14 +154,14 @@ footer {
     font-size: 14px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1400px) {
     :root {
-        --bg-url: url(./assets/assets/bg-desktop.jpg);
+        --bg-url: url(assets/assets/bg-desktop.jpg);
 
     }
 
     .light {
-        --br-url: url(./assets/bg-desktop-light.jpg);
+        --br-url: url(assets/assets/bg-desktop-light.jpg);
     }
 }
 
